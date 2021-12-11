@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.text-content {
+    width: 50%;
+}
+
+
+.hero-image {
+    width: 50%;
+    background: url("./hero-desktop.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.description {
+    line-height: 2rem;
+}
